@@ -398,8 +398,9 @@ body {
     width: 0;
     height: 0;
     position: absolute;
-	top: 0;
-	left: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
 
 .checkbox__label {
@@ -488,9 +489,11 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-	top: 0;
-	left: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
+
 .option__label {
     cursor: pointer;
     padding: 0 20px 0 10px;
