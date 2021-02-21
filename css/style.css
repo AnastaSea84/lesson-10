@@ -422,6 +422,10 @@ body {
     box-shadow: 3px 1px 2px #1b1847;
 }
 
+.checkbox__input:focus + .checkbox__label::before {
+	box-shadow: 1px -1px 5px 3px #1b1847;
+}
+
 .form__button {
     min-height: 35px;
     min-width: 110px;
@@ -504,6 +508,10 @@ body {
     left: -13px;
     background-color: rgb(87, 58, 105);
     box-shadow: 0px 0px 5px 0px #1b1847;
+}
+
+.option__input:focus + .option__label::before {
+    box-shadow: 0px 0px 4px 3px #1b1847;
 }
 
 /* Footer ================ */
